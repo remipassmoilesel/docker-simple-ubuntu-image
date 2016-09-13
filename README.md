@@ -36,7 +36,6 @@ You can associate a domain name with container by using an Apache proxy. An exam
 	ProxyRequests Off
 	ProxyPreserveHost On
 
-	# Etherpad
 	ProxyPass / http://localhost:9010
 	ProxyPassReverse / http://localhost:9010
 
